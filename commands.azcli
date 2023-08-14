@@ -1,0 +1,35 @@
+# python version
+python --version
+
+# show path variable in powershell
+$env:path
+
+# uninstalled python 3.10 from going to add/remove programs
+# use VS COde editor to run python code
+# use vs code Python extension to run python code
+# Intellisense provides smart completions based on variable types, function definitions, and imported modules.
+
+# run hello.py
+python hello.py
+
+# run program.py in python 3
+python3 program.py
+
+# create virtual environment
+python -m venv venv
+
+# activate virtual environment
+.\venv\Scripts\activate
+
+# see all installed libraries
+pip freeze
+
+# install dateutil library
+pip install python-dateutil
+
+# deactivate virtual environment
+deactivate
+
+python3 -m pip install --upgrade pip
+
+pip freeze > requirements.txt
